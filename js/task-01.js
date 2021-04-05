@@ -7,11 +7,11 @@
 // Категория: Животные
 // Количество элементов: 4
 
-const catogoriesValue = document.querySelector( `#categories` ).children.length;
+const catogoriesValue = document.querySelector( '#categories').children.length;
 console.log( `В списке ${catogoriesValue} категории` );
 const categoryArray = document.querySelectorAll( `.item` );
 
 const categoryValue = categoryArray.forEach(category => {
-    console.log( `Категория: `, category.firstElementChild.textContent );
-    console.log( `Количество элемментов: `, category.lastElementChild.children.length )
+    console.log( 'Категория: ', category.firstElementChild.textContent );
+    console.log( 'Количество элемментов: ', category.lastElementChild.children.length )
 })

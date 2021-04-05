@@ -11,9 +11,9 @@ const ingredients = [
   'Приправы',
 ];
 
-const itemUL = document.createElement("ul");
+const itemUL = document.createElement('ul');
 const element = ingredients.map(ingredient => {
-    const item = document.createElement("li");
+    const item = document.createElement('li');
     itemUL.appendChild(item);
     document.body.appendChild(itemUL);
     item.textContent = ingredient;
