@@ -21,7 +21,7 @@ const images = [
     },
 ];
 
-const imagesContainer = document.querySelector("#gallery");
+const imagesContainer = document.querySelector('#gallery');
 const elementImages = ({ url, alt }) => {
     return `<li class="item"><img width="400px" height="300px" src="${url}" alt="${alt}"></li>`;
 };

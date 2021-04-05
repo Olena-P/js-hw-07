@@ -10,7 +10,7 @@ const wrap_button = {
   sub: document.querySelector('[data-action="increment"]'),
   add: document.querySelector('[data-action="decrement"]'),
   span: document.querySelector('#value'),
-  wrapper: document.querySelector('#counter '),
+  wrapper: document.querySelector('#counter'),
 };
 let counterValue = 0;
 const increment = () => {
