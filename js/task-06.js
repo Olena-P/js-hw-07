@@ -1,14 +1,14 @@
 //Напиши скрипт, который бы при потере фокуса на инпуте, проверял его содержимое на правильное количество символов.
-/*
-ли введено подходящее количество, то border инпута становится зеленым, если неправильное - красным.
-Для добавления стилей, используй CSS-классы valid и invalid.
-*/
 
 let inputVal = document.getElementById("validation-input");
 
 let totalLenght = inputVal.getAttribute("data-length");
 let intTotallenght = parseInt(totalLenght, 10);
 
+/*
+ecли введено подходящее количество, то border инпута становится зеленым, если неправильное - красным.
+Для добавления стилей, используй CSS-классы valid и invalid.
+*/
 inputVal.oninput = function() {
   if (inputVal.value.length === intTotallenght) {
     inputVal.classList.remove('invalid');

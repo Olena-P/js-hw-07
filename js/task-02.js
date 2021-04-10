@@ -12,6 +12,7 @@ const ingredients = [
 ];
 
 const itemUL = document.createElement('ul');
+
 const element = ingredients.map(ingredient => {
     const item = document.createElement('li');
     itemUL.appendChild(item);
